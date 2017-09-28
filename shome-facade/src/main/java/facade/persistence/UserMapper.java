@@ -12,7 +12,7 @@ public interface UserMapper {
             keyColumn = "id",
             keyProperty = "id"
     )
-    @Insert("insert into user(user_code,user_name,telephone_number,status) values (#{userCode},#{userName},#{telephoneNumber},#{status})")
+    @Insert("insert into t_user(user_code,user_name,telephone_number,status) values (#{userCode},#{userName},#{telephoneNumber},#{status})")
     public int addUser(User user);
 
     @Results({
@@ -20,7 +20,7 @@ public interface UserMapper {
             @Result(column = "user_name", property = "userName"),
             @Result(column = "telephone_number", property = "telephoneNumber")
     })
-    @Select("select * from user")
+    @Select("select * from t_user")
     public List<User> queryUsers();
 
     @Results({
@@ -28,7 +28,7 @@ public interface UserMapper {
             @Result(column = "user_name", property = "userName"),
             @Result(column = "telephone_number", property = "telephoneNumber")
     })
-    @Select("select * from user where user_name like CONCAT('%',#{userName},'%')")
+    @Select("select * from t_user where user_name like CONCAT('%',#{userName},'%')")
     public List<User> queryUsersByName(String userName);
 
 }
