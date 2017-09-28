@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shome-pom/shome.iml" filepath="$PROJECT_DIR$/shome-pom/shome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shome-common/shome-common.iml" filepath="$PROJECT_DIR$/shome-common/shome-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shome-facade/shome-facade.iml" filepath="$PROJECT_DIR$/shome-facade/shome-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shome-service/shome-service.iml" filepath="$PROJECT_DIR$/shome-service/shome-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shome-web/shome-web.iml" filepath="$PROJECT_DIR$/shome-web/shome-web.iml" />
+    </modules>
+  </component>
+</project>
