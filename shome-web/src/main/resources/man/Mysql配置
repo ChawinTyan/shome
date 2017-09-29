@@ -1,0 +1,7 @@
+--修改root密码
+SET PASSWORD FOR 'root'@'%'=PASSWORD('chawin');
+
+--新增chawintyan用户
+CREATE USER 'chawintyan'@'localhost' identified by 'chawin';
+GRANT ALL ON *.* TO 'chawintyan'@'localhost';
+

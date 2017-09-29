@@ -1,0 +1,5 @@
+http://localhost:8161/admin
+
+--新增队列
+com.chawin.shome.story
+com.chawin.shome.history
